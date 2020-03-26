@@ -27,10 +27,29 @@ nav {
     display: none;
     cursor: pointer; }
     nav header .icon .line {
+      transition: .2s ease;
+      -webkit-transition: .2s ease;
+      -moz-transition: .2s ease;
+      -ms-transition: .2s ease;
+      -o-transition: .2s ease;
       margin: 5px;
       background-color: #fff;
       width: 35px;
       height: 5px; }
+  nav header .change .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    -moz-transform: rotate(-45deg) translate(-5px, 6px);
+    -ms-transform: rotate(-45deg) translate(-5px, 6px);
+    -o-transform: rotate(-45deg) translate(-5px, 6px); }
+  nav header .change .line:nth-child(2) {
+    opacity: 0; }
+  nav header .change .line:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    -moz-transform: rotate(45deg) translate(-8px, -8px);
+    -ms-transform: rotate(45deg) translate(-8px, -8px);
+    -o-transform: rotate(45deg) translate(-8px, -8px); }
   nav .nav-link {
     display: flex;
     align-items: center;
@@ -105,7 +124,7 @@ nav {
       justify-content: space-between;
       align-items: center; }
       nav header a {
-        font-size: 20px; }
+        font-size: 27px; }
       nav header .icon {
         display: block;
         margin-right: 30px; }
