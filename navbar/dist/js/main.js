@@ -1,0 +1,1 @@
+function changeFun(n){n.classList.toggle("change")}
