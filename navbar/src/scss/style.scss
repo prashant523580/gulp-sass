@@ -10,8 +10,13 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 15px 0px;
+            padding: 20px 0px;
             background-color: $bg-c1;
+            transition: .2s ease;
+            -webkit-transition: .2s ease;
+            -moz-transition: .2s ease;
+            -ms-transition: .2s ease;
+            -o-transition: .2s ease;
             @include display-sB;
             #check {
                 display: none;

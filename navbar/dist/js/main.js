@@ -1,1 +1,1 @@
-function changeFun(n){n.classList.toggle("change")}
+function scroll(){var n=document.getElementById("navlink");80<document.body.scrollTop||80<document.documentElement.scrollTop?(document.getElementById("navbar").style.padding="5px 0px",n.style.top=" 64px"):(document.getElementById("navbar").style.padding="20px 0px",n.style.top=" 90px")}function changeFun(n){n.classList.toggle("change")}window.onscroll=function(){scroll()};
