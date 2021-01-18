@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+</head>
+
+<body>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <label for="check">
+            <div class="icon" onclick="changeFun(this)">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </label>
+        </header>
+        <div class="nav-link" id="navlink">
+            <a href="#">home</a>
+            <a href="#">contact</a>
+            <div class="dropdown">
+                <div class="drop-btn"> dropdown &#9660;</div>
+                <div class="dropdown-content">
+                    <a href="#">links</a>
+                    <a href="#">links</a>
+                    <a href="#">links</a>
+                </div>
+            </div>
+            <a href="#">gallery</a>
+            <div class="dropdown">
+                <div class="drop-btn">dropdown &#9660; </div>
+                <div class="dropdown-content">
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                    <a href="#">link</a>
+                </div>
+            </div>
+            <a href="#">about us</a>
+            <div class="dropdown">
+                <div class="drop-btn">dropdown &#9660; </div>
+                <div class="dropdown-content">
+                    <a href="#">links</a>
+                    <a href="#">links</a>
+                </div>
+            </div>
+            <a href="#">FAQ</a>
+        </div>
+    </nav>
+    <section style="height: 1500px;">
+        <div class="carousel-container">
+            <div class="slide fade">
+                <div class="text-content">
+                    <div class="top-text">
+                        <div>
+                            <span>welcome </span>
+                            <span>to</span>
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div> css animation design</div>
+                    </div>
+                </div>
+                <img src="src/img/img2.jpeg">
+                <div class="caption">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. </p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="text-content">
+                    <div class="top-text">
+                        <div>
+                            <span>welcome </span>
+                            <span>to</span>
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div> css animation design</div>
+                    </div>
+                </div>
+                <img src="src/img/img3.jpg">
+                <div class="caption">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting </p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="text-content">
+                    <div class="top-text">
+                        <div>
+                            <span>welcome </span>
+                            <span>to</span>
+                        </div>
+                    </div>
+                    <div class="bottom-text">
+                        <div> css animation design</div>
+                    </div>
+                </div>
+                <img src="src/img/img5.jpg">
+                <div class="caption">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>
